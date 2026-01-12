@@ -113,67 +113,67 @@ Available `prompt_type` values are:
   <tr>
     <td align="center">
       <code>original</code><br/>
-      <img src="docs/images/original.png" alt="original" width="250" />
+      <img src="docs/images/original.png" alt="original" width="200" />
     </td>
     <td align="center">
       <code>start_end_marked</code><br/>
-      <img src="docs/images/start_end_marked.png" alt="start_end_marked" width="250" />
+      <img src="docs/images/start_end_marked.png" alt="start_end_marked" width="200" />
     </td>
     <td align="center">
       <code>coordinate_grid</code><br/>
-      <img src="docs/images/coordinate_grid.png" alt="coordinate_grid" width="250" />
+      <img src="docs/images/coordinate_grid.png" alt="coordinate_grid" width="200" />
     </td>
   </tr>
   <tr>
     <td align="center">
       <code>coordinate_grid_and_start_end_marked</code><br/>
-      <img src="docs/images/coordinate_grid_and_start_end_marked.png" alt="coordinate_grid_and_start_end_marked" width="250" />
+      <img src="docs/images/coordinate_grid_and_start_end_marked.png" alt="coordinate_grid_and_start_end_marked" width="200" />
     </td>
     <td align="center">
       <code>path_cell_annotated</code><br/>
-      <img src="docs/images/path_cell_annotated.png" alt="path_cell_annotated" width="250" />
+      <img src="docs/images/path_cell_annotated.png" alt="path_cell_annotated" width="200" />
     </td>
     <td align="center">
       <code>text</code><br/>
-      <img src="docs/images/text.png" alt="text" width="250" />
+      <img src="docs/images/text.png" alt="text" width="200" />
     </td>
   </tr>
   <tr>
     <td align="center">
       <code>low_contrast</code><br/>
-      <img src="docs/images/low_contrast.png" alt="low_contrast" width="250" />
+      <img src="docs/images/low_contrast.png" alt="low_contrast" width="200" />
     </td>
     <td align="center">
       <code>low_contrast_and_path_cell_annotated</code><br/>
-      <img src="docs/images/low_contrast_and_path_cell_annotated.png" alt="low_contrast_and_path_cell_annotated" width="250" />
+      <img src="docs/images/low_contrast_and_path_cell_annotated.png" alt="low_contrast_and_path_cell_annotated" width="200" />
     </td>
     <td align="center">
       <code>low_resolution</code><br/>
-      <img src="docs/images/low_resolution.png" alt="low_resolution" width="250" />
+      <img src="docs/images/low_resolution.png" alt="low_resolution" width="200" />
     </td>
   </tr>
   <tr>
     <td align="center">
       <code>low_resolution_and_path_cell_annotated</code><br/>
-      <img src="docs/images/low_resolution_and_path_cell_annotated.png" alt="low_resolution_and_path_cell_annotated" width="250" />
+      <img src="docs/images/low_resolution_and_path_cell_annotated.png" alt="low_resolution_and_path_cell_annotated" width="200" />
     </td>
     <td align="center">
       <code>rotated</code><br/>
-      <img src="docs/images/rotated.png" alt="rotated" width="250" />
+      <img src="docs/images/rotated.png" alt="rotated" width="200" />
     </td>
     <td align="center">
       <code>rotated_and_path_cell_annotated</code><br/>
-      <img src="docs/images/rotated_and_path_cell_annotated.png" alt="rotated_and_path_cell_annotated" width="250" />
+      <img src="docs/images/rotated_and_path_cell_annotated.png" alt="rotated_and_path_cell_annotated" width="200" />
     </td>
   </tr>
   <tr>
     <td align="center">
       <code>black_frame</code><br/>
-      <img src="docs/images/black_frame.png" alt="black_frame" width="250" />
+      <img src="docs/images/black_frame.png" alt="black_frame" width="200" />
     </td>
     <td align="center">
       <code>black_frame_and_path_cell_annotated</code><br/>
-      <img src="docs/images/black_frame_and_path_cell_annotated.png" alt="black_frame_and_path_cell_annotated" width="250" />
+      <img src="docs/images/black_frame_and_path_cell_annotated.png" alt="black_frame_and_path_cell_annotated" width="200" />
     </td>
     <td></td>
   </tr>

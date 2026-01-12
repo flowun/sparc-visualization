@@ -1,6 +1,6 @@
 [project]
 name = "sparc-visualization"
-version = "0.0.0"
+version = "0.1.1"
 description = ""
 authors = [
     {name = "Florian Valentin Wunderlich",email = "florian.valentin.wunderlich@gmail.com"}

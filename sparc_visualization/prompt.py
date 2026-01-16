@@ -1,7 +1,13 @@
+from typing import Dict
+
 from sparc_visualization.prompts.prompts import get_prompt
 
 
-def generate_prompt(puzzle, plot_type="original", prompt_type="prompt_engineering"):
+def generate_prompt(
+    puzzle: Dict,
+    plot_type: str = "original",
+    prompt_type: str = "prompt_engineering",
+) -> str:
     """Generate a model prompt for a given board.
 
     Parameters

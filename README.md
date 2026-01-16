@@ -107,11 +107,30 @@ analysis = analyze_path(extracted_path, puzzle)
 
 ### Core Functions
 
-`get_puzzle_image(puzzle: Dict, plot_type: str = "original", base_64_image: bool = False, show_plot: bool = False, save_to_disk: bool = False, save_dir: str = ".", save_filename: str = "puzzle_image.png") -> PIL.Image.Image | str`
-Renders a SPaRC puzzle into one of the supported visual representations (`plot_type` values). To get a base64-encoded string of the image suitable for LLM input, set `base_64_image=True`.
-Besides returning the image object or base64 string, the function has options to display the image (`show_plot=True`) or save it to disk (`save_to_disk=True`).
+```text
+get_puzzle_image(
+    puzzle: Dict,
+    plot_type: str = "original",
+    base_64_image: bool = False,
+    path: List[Tuple[int, int]] | List[Dict[str, int]] | None = None,
+    show_plot: bool = False,
+    save_to_disk: bool = False,
+    save_dir: str = ".",
+    save_filename: str = "puzzle_image.png",
+) -> PIL.Image.Image | str
+```
+- Renders a SPaRC puzzle into one of the supported visual representations (`plot_type` values).
+- To get a base64-encoded string of the image suitable for LLM input, set `base_64_image=True`.
+- To overlay a path, specify `path` either as a list of `(x, y)` tuples or a list of `{"x": int, "y": int}` cells. The full solution path can be displayed by passing puzzle["solutions"][0]["path"] to this argument.
+- Besides returning the image object or base64 string, the function has options to display the image (`show_plot=True`) or save it to disk (`save_to_disk=True`).
 
-`generate_prompt(puzzle: Dict, plot_type: str = "original", prompt_type: str = "prompt_engineering") -> str`
+```text
+generate_prompt(
+    puzzle: Dict,
+    plot_type: str = "original",
+    prompt_type: str = "prompt_engineering",
+) -> str
+```
 Generates the text prompt (based on `prompt_type` values) that should be paired with the rendered image for an LLM call.
 Available `prompt_type` values are:
 - "default_tr": visual prompt from the SPaRC paper (with textual coordinates)

@@ -46,8 +46,6 @@ from datasets import load_dataset
 dataset = load_dataset("lkaesberg/SPaRC", "all", split="test")
 puzzle = dataset[0]
 
-puzzle_image = get_puzzle_image(puzzle, plot_type="path_cell_annotated")
-
 # Generate prompt and image, e.g.
 plot_type = "path_cell_annotated"
 prompt_type = "prompt_engineering"
@@ -206,6 +204,7 @@ Available `prompt_type` values are:
       <code>black_frame_and_path_cell_annotated</code><br/>
       <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/black_frame_and_path_cell_annotated.png" alt="black_frame_and_path_cell_annotated" style="max-width: 100%; height: auto;" />
     </td>
+    <td align="center" style="width: 33.33%;"></td>
   </tr>
 </table>
 

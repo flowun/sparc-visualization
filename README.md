@@ -140,73 +140,72 @@ Available `prompt_type` values are:
 
 ### Available Puzzle Representations (`plot_type`)
 
-<table>
+<table style="width: 100%; table-layout:  fixed;">
   <tr>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>original</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/original.png" alt="original" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/original.png" alt="original" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>start_end_marked</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/start_end_marked.png" alt="start_end_marked" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/start_end_marked.png" alt="start_end_marked" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>coordinate_grid</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/coordinate_grid.png" alt="coordinate_grid" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/coordinate_grid.png" alt="coordinate_grid" style="max-width: 100%; height: auto;" />
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>coordinate_grid_and_start_end_marked</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/coordinate_grid_and_start_end_marked.png" alt="coordinate_grid_and_start_end_marked" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/coordinate_grid_and_start_end_marked.png" alt="coordinate_grid_and_start_end_marked" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>path_cell_annotated</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/path_cell_annotated.png" alt="path_cell_annotated" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/path_cell_annotated.png" alt="path_cell_annotated" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>text</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/text.png" alt="text" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/text.png" alt="text" style="max-width: 100%; height: auto;" />
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>low_contrast</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_contrast.png" alt="low_contrast" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_contrast.png" alt="low_contrast" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>low_contrast_and_path_cell_annotated</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_contrast_and_path_cell_annotated.png" alt="low_contrast_and_path_cell_annotated" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_contrast_and_path_cell_annotated.png" alt="low_contrast_and_path_cell_annotated" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>low_resolution</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_resolution.png" alt="low_resolution" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_resolution.png" alt="low_resolution" style="max-width: 100%; height: auto;" />
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>low_resolution_and_path_cell_annotated</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_resolution_and_path_cell_annotated.png" alt="low_resolution_and_path_cell_annotated" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/low_resolution_and_path_cell_annotated.png" alt="low_resolution_and_path_cell_annotated" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>rotated</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/rotated.png" alt="rotated" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/rotated.png" alt="rotated" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>rotated_and_path_cell_annotated</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/rotated_and_path_cell_annotated.png" alt="rotated_and_path_cell_annotated" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/rotated_and_path_cell_annotated.png" alt="rotated_and_path_cell_annotated" style="max-width: 100%; height: auto;" />
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>black_frame</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/black_frame.png" alt="black_frame" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/black_frame.png" alt="black_frame" style="max-width: 100%; height: auto;" />
     </td>
-    <td align="center">
+    <td align="center" style="width: 33.33%;">
       <code>black_frame_and_path_cell_annotated</code><br/>
-      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/black_frame_and_path_cell_annotated.png" alt="black_frame_and_path_cell_annotated" width="200" />
+      <img src="https://raw.githubusercontent.com/flowun/sparc-visualization/refs/heads/main/docs/images/black_frame_and_path_cell_annotated.png" alt="black_frame_and_path_cell_annotated" style="max-width: 100%; height: auto;" />
     </td>
-    <td></td>
   </tr>
 </table>
 

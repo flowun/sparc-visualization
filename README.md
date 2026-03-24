@@ -139,7 +139,7 @@ Available `prompt_type` values are:
 
 ### Available Puzzle Representations (`plot_type`)
 
-<table width="100%" cellspacing="0" cellpadding="6">
+<table width="92%" cellspacing="0" cellpadding="6">
   <tr>
     <th width="33.333%"></th>
     <th width="33.333%"></th>

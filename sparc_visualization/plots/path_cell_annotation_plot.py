@@ -1,5 +1,4 @@
-from PIL import ImageFont
-
+from sparc_visualization.fonts import load_plot_font
 from sparc_visualization.plots.original_plot import OriginalPlot
 
 
@@ -11,7 +10,7 @@ class PathCellAnnotatedPlot(OriginalPlot):
                  path_cell_size_ratio=(5, 10),
                  ):
         super().__init__(board, size=size, pad_pixels=pad_pixels, path_cell_size_ratio=path_cell_size_ratio)
-        self.font = ImageFont.truetype("arial.ttf", size=self.cell_size // 6)
+        self.font = load_plot_font(size=self.cell_size // 6)
 
     def render(self):
         super().render()

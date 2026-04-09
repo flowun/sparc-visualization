@@ -1,5 +1,6 @@
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
+from sparc_visualization.fonts import load_plot_font
 from sparc_visualization.plots.plot import Plot
 
 
@@ -33,7 +34,7 @@ class TextPlot(Plot):
         self.coordinate_color = coordinate_color
         self.text_font_size = text_font_size  # if None, computed from cell_size
         self.font_path = font_path
-        self.font = ImageFont.truetype("arial.ttf", size=self.text_font_size)
+        self.font = load_plot_font(size=self.text_font_size, preferred_path=self.font_path)
 
     # Helper: color code to human-readable name
     def _color_name(self, code):

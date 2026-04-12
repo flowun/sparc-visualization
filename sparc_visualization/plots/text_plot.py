@@ -55,9 +55,11 @@ class TextPlot(Plot):
         t = getattr(obj, 'type', '')
         color_name = self._color_name(getattr(obj, 'color', None))
         if t == 'Stone':
-            return f"{(color_name + '\n') if color_name else ''}Square".strip()
+            prefix = (color_name + '\n') if color_name else ''
+            return f"{prefix}Square".strip()
         if t == 'Star':
-            return f"{(color_name + '\n') if color_name else ''}Star".strip()
+            prefix = (color_name + '\n') if color_name else ''
+            return f"{prefix}Star".strip()
         if t == 'Triangle':
             n = getattr(obj, 'triangle_count', 1)
             noun = 'Triangle' if int(n) == 1 else 'Triangles'
@@ -68,7 +70,8 @@ class TextPlot(Plot):
             return (f"{color_name + ' ' if color_name else ''}Negative\nPolyshape").strip()
         if t == 'Empty Rule':
             return ""
-        return (f"{(color_name + '\n') if color_name else ''}{t}").strip()
+        prefix = (color_name + '\n') if color_name else ''
+        return f"{prefix}{t}".strip()
 
     def _draw_polyshape_under_text(self, obj, cx, cy):
         # 4x4 polyshape grid beneath the text, in black; filled for Positive, outlined for Negative
